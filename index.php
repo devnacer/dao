@@ -3,15 +3,19 @@ require_once 'app/models/Stagiaire.php';
 
 $stagiaire12 = new Stagiaire();
 
-$stagiaire12->setName('nac');
-$stagiaire12->setFamilyName('kal');
-$stagiaire12->setOld('27');
-$stagiaire12->setLogin('nac');
-$stagiaire12->setPassword('nac');
-
-$stagiaire12->create();
+// $stagiaire12->create();
 echo('<pre>');
-var_dump($stagiaire12->create());
+// var_dump($stagiaire12->create());
 echo('</pre>');
 
+// $stagiaire12->delete(7);
+$stagiaire12->setName('pedro');
+$stagiaire12->setFamilyName('pedro');
+$stagiaire12->setOld('27');
+$stagiaire12->setLogin('pedro');
+$stagiaire12->setPassword('ped');
 
+$stagiaire12->edit(9);
+echo('<pre>');
+var_dump($stagiaire12->edit(9));
+echo('</pre>');
