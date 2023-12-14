@@ -1,5 +1,5 @@
 <?php
-namespace DAO\myNameSpace\User\User;
+namespace DAO\myNameSpace\User;
 
 class User {
     public $username;

@@ -1,0 +1,15 @@
+{
+    "name": "admin/dao",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Dao\\": "nac/"
+        }
+    },
+    "authors": [
+        {
+            "name": "devnacer",
+            "email": "kalache.nacer.kn@gmail.com"
+        }
+    ],
+    "require": {}
+}

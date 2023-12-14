@@ -1,4 +1,5 @@
 <?php
+namespace project;
 class Model {
     protected $id;
     protected static $database;
@@ -7,6 +8,7 @@ class Model {
     public function getId() {
         return $this->id;
     }
+
 
     public static function connectToDatabase() {
         $host = "localhost"; // Database host name
